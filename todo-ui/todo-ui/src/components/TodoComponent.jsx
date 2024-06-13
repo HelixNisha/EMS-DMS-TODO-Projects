@@ -20,7 +20,6 @@ const TodoComponent = () => {
 
         if(id){
 
-            
             updateTodo(id, todo).then((response) => {
                 navigate('/todos')
             }).catch(error => {
